@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <title>Documentation for Bentofolio - Bootstrap Personal Portfolio Template</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicons -->
+    <link rel="icon" href="assets/img/favicon.svg">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div id="header">
+        <h1>Bentofolio | Bootstrap Personal Portfolio Template</h1>
+    </div>
+
+    <!-- Menu -->
+    <div id="doc-menu">
+        <div class="logo py-4 ps-4">
+            <a href="index.html">
+                <img src="assets/img/logo.png" alt="logo">
+            </a>
+        </div>
+        <ul class="list-unstyled" id="menu">
+            <li class="active"><a href="#intro">Intro</a></li>
+            <li><a href="#notice">Read First</a></li>
+            <li><a href="#start">Installation</a></li>
+            <li><a href="#s1">HTML Structure</a></li>
+            <li><a href="#s2">CSS Structure</a></li>
+            <li><a href="#s3">JavaScripts</a></li>
+            <li><a href="#page">All Pages</a></li>
+            <li><a href="#fav">Favicon Settings</a></li>
+            <li><a href="#logo">Logo Settings</a></li>
+            <li><a href="#font">Fonts Settings</a></li>
+            <li><a href="#contact">Contact Form</a></li>
+            <li><a href="#s4">Credits</a></li>
+            <li><a href="#thanks">Thanks 😊</a></li>
+        </ul>
+    </div>
+
+    <!-- Content -->
+    <div id="doc-content">
+
+        <section id="intro">
+            <div class="vertical">
+                <h1 class="pt-3">
+                    Bentofolio | Bootstrap Personal Portfolio Template
+                    <span>v1.0</span>
+                </h1>
+                <p class="mt-4">First of all, thank you for purchasing the <code>Bentofolio - Personal portfolio</code>
+                    HTML5
+                    Template. You
+                    can find the
+                    detailed information about the template in this document. <br> If there is anything you cannot find
+                    in this document, you can send an e-mail via the <a href="https://themeforest.net/user/marvel_theme"
+                        target="_blank">Profile page</a>.</p>
+                <div class="templete-feautres">
+                    <h4 class="mt-5">Templete Features</h4>
+                    <ul class="list-group ms-0 mt-3 ps-4">
+                        <li>Clean & Simple Design</li>
+                        <li>W3C Validated HTML5 & CSS3 Coding</li>
+                        <li>Latest Bootstrap</li>
+                        <li>Fully Responsive Design</li>
+                        <li>Well Commented Code</li>
+                        <li>Developer Friendly Coding</li>
+                        <li>SEO optimized</li>
+                        <li>Font Awesome Icons</li>
+                        <li>PHP/Ajax Powered Working Contact Form</li>
+                        <li>Cross Browser Compatible with IE11+, Firefox, Safari, Opera, chrome</li>
+                        <li>Well Documented</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notice -->
+        <section id="notice">
+            <h1>Bentofolio in a Brief</h1>
+            <p><strong>Bentofolio</strong> Personal Portfolio HTML5 template<br>
+                In download folder you will find <strong>Two folders:</strong>
+                <ul>
+                    <li><code>Bentofolio</code> (Main Template)</li>
+                    <li><code>Documentation</code> (Documentation for main template)</li>
+                </ul>
+                <br>
+                <p style="margin-top: 0;" class="files-folder"><img src="assets/img/files.png" alt=""></p>
+                Remember, when you want to use the shortCode/element in any pages you need to adjust the section spacing
+                by
+                giving <code>margin</code> or <code>padding</code>. Don't get panic if you messed up anything when you
+                edit
+                the template. We are always available to support our customer.
+            </p>
+        </section>
+
+
+        <!-- 1 Installation -->
+        <section id="start">
+            <h1><span>01</span>Installation</h1>
+            <p>Follow the steps below to setup your site template:</p>
+            <ol>
+                <li>Unzip the downloaded package and open the <code>Template</code> folder to find all the template
+                    files.
+                    You wil get <code>Bentofolio</code> folder in there. You need to upload this folder to your hosting
+                    web
+                    server using FTP or cPanel in order to use it on your website.</li>
+                <li>Below is the folder structure you will see in your website root directory:
+                    <ul>
+                        <li><code>Bentofolio/assets/css</code> - Stylesheet files</li>
+                        <li><code>Bentofolio/assets/fontawsome</code> - Icon files</li>
+                        <li><code>Bentofolio/assets/img</code> - Image files</li>
+                        <li><code>Bentofolio/assets/js</code> - JS files</li>
+                    </ul>
+                </li>
+                <li>You need to upload all or specific HTML files as per your need.</li>
+                <li>And now you are ready to go to generate your website with this awesome template.</li>
+            </ol>
+        </section>
+
+
+        <!-- 2 HTML Structure -->
+        <section id="s1">
+            <h1><span>02</span>HTML Structure</h1>
+            <p>We are used Bootstrap Latest Version <code>v5.3.0</code> framework in this template.<br> The general
+                template
+                structure is the same throughout the template. Here is the general structure.</p>
+
+            <pre class="bg-light border">
+<code>
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="utf-8"&gt;
+        &lt;meta http-equiv="x-ua-compatible" content="ie=edge"&gt;
+        &lt;title&gt;Bentofolio - Bootstrap Personal Portfolio Template&lt;/title&gt;
+        &lt;meta name="description" content="Bentofolio - Bootstrap Personal Portfolio Template"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+
+        &lt;link rel="shortcut icon" type="image/png" href="assets/img/favicon.svg"&gt;
+        &lt;!-- Place favicon.ico in the root directory --&gt;
+
+        &lt;!-- CSS here --&gt;
+        &lt;link rel="stylesheet" href="assets/css/....."&gt;
+        &lt;link rel="stylesheet" href="assets/css/....."&gt;
+        &lt;link rel="stylesheet" href="assets/css/...."&gt;
+        &lt;link rel="stylesheet" href="assets/css/..."&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+        &lt;div id="page-content"&gt;
+
+            &lt;!-- header-area --&gt;
+            &lt;header class="header-area"&gt;
+
+
+            &lt;/header&gt;
+            &lt;!-- header-area-end --&gt;
+
+
+
+            &lt;!-- main-area --&gt;
+            &lt;main&gt;
+
+                &lt;!-- All Section Here --&gt;
+
+            &lt;/main&gt;
+            &lt;!-- main-area-end --&gt;
+
+
+
+            &lt;!-- Footer-area --&gt;
+            &lt;footer class="footer-area"&gt;
+
+            &lt;/footer&gt;
+            &lt;!-- Footer-area-end --&gt;
+
+        &lt;/div&gt;
+
+        &lt;!-- JS here --&gt;
+        &lt;script src="assets/js/vendor/....."&gt;&lt;/script&gt;
+        &lt;script src="assets/js/...."&gt;&lt;/script&gt;
+        &lt;script src="assets/js/..."&gt;&lt;/script&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+</code>
+</pre>
+        </section>
+
+
+        <!-- 2 CSS Structure -->
+        <section id="s2">
+            <h1><span>03</span>CSS Structure</h1>
+            <p>The <code>style.css</code> file contains all of the specific stylings for the page. The file is separated
+                into sections using:</p>
+
+
+            <ul class="list-unstyled list-of-file">
+                <li>
+                    <h4>bootstrap.min.css</h4>
+                    <p>This file includes core <a href="https://getbootstrap.com" target="_blank">bootstrap</a> styles
+                    </p>
+                    <a href="https://getbootstrap.com/docs/5.3/getting-started/download/"
+                        target="_blank"><small>Source</small></a>
+                </li>
+
+                <li>
+                    <h4>font-awesome.css</h4>
+                    <p>This file contains styles about <a href="https://fontawesome.com/v5.15/icons"
+                            target="_blank">Fontawesome</a> icon library</p>
+                    <a href="https://fontawesome.com/v5.15/icons" target="_blank"><small>Source</small></a>
+
+                    <h5>Example</h5>
+                    <code>
+                        &lt;i class="fab fa-facebook-square">&lt;/i>
+                    </code>
+                </li>
+
+                <li>
+                    <h4>slick.css</h4>
+                    <p>This file contains styles about slick carousel plugin</p>
+
+                    <a href="https://kenwheeler.github.io/slick/" target="_blank"><small>Source</small></a>
+                </li>
+
+                <li>
+                    <h4>style.css</h4>
+                    <p>All styles about template</p>
+                </li>
+
+            </ul>
+        </section>
+
+        <!-- 4 JavaScripts -->
+        <section id="s3">
+            <h1><span>04</span>JavaScripts</h1>
+            <ul class="list-unstyled list-of-file">
+                <li>
+                    <h4>jQuery 3.6.0</h4>
+                    <p>jQuery is a fast, small, and feature-rich JavaScript library.</p>
+                    <a href="https://blog.jquery.com/2021/03/02/jquery-3-6-0-released/"
+                        target="_blank"><small>Source</small></a>
+                </li>
+
+                <li>
+                    <h4>bootstrap.min.js</h4>
+                    <p>Core bootstrap js file</p>
+                    <a href="https://getbootstrap.com/docs/5.3/getting-started/download/"
+                        target="_blank"><small>Source</small></a>
+                </li>
+
+                <li>
+                    <h4>slick.min.js</h4>
+                    <p>jQuery carousel plugin from Slick</p>
+
+                    <a href="https://kenwheeler.github.io/slick/" target="_blank"><small>Source</small></a>
+                </li>
+
+                <li>
+                    <h4>jquery.magnific-popup.min.js</h4>
+                    <p>A lightweight script to animate scrolling.Reveal Animations When You Scroll.</p>
+                    <small><a href="https://clipboardjs.com/" target="_blank">Source</a></small>
+
+                </li>
+                
+                <li>
+                    <h4>clipboard.js</h4>
+                    <p>A lightweight script to animate scrolling.Reveal Animations When You Scroll.</p>
+                    <small><a href="https://dimsemenov.com/plugins/magnific-popup/" target="_blank">Source</a></small>
+
+                </li>
+
+
+            </ul>
+        </section>
+
+
+        <!-- 5 All Pages -->
+        <section id="page">
+            <h1><span>05</span>All Pages</h1>
+            <p>Introduce <code>Bentofolio</code> All Pages</p>
+            <ul class="list-wrap">
+                <li>
+                    <h4><code>index.html</code> is <code>====></code> Home Page</h4>
+                </li>
+                <li>
+                    <h4><code>about.html</code> is <code>====></code> About Page</h4>
+                </li>
+                <li>
+                    <h4><code>services.html</code> is <code>====></code> Services Page</h4>
+                </li>
+                <li>
+                    <h4><code>portfolio.html</code> is <code>====></code> Portfolio Page</h4>
+                </li>
+                <li>
+                    <h4><code>portfolio-details.html</code> is <code>====></code> Portfolio details Page</h4>
+                </li>
+                <li>
+                    <h4><code>blog.html</code> is <code>====></code> Blog Post Page</h4>
+                </li>
+                <li>
+                    <h4><code>article-details.html</code> is <code>====></code> Article page</h4>
+                </li>
+                <li>
+                    <h4><code>contact.html</code> is <code>====></code> Contact Page</h4>
+                </li>
+            </ul>
+        </section>
+
+
+        <!-- 6 Favicon -->
+        <section id="fav">
+            <h1><span>06</span>Favicon Settings</h1>
+            <p>Favicon Will be found in <code>&lt;head></code> section.</p>
+            <pre class="bg-light border">
+        <!-- Favicon -->
+        &lt;link rel="shortcut icon" type="image/png" href="assets/img/favicon.svg">
+        </pre>
+        </section>
+
+
+        <!-- 7 Logo -->
+        <section id="logo">
+            <h1><span>07</span>Logo Settings</h1>
+            <p>The Logo will be found in the <code>&lt;nav class="navbar"></code> tag.</p>
+            <pre class="bg-light border">
+
+            &lt;div class="logo"&gt;&lt;a href="index.html"&gt;&lt;img src="assets/img/logo/logo.png" alt="logo"&gt;&lt;/a&gt;&lt;/div&gt;
+            </pre>
+            <p>You can replace any <code>.jpg</code> <code>.png</code> <code>.svg</code> logo. And set the
+                <code>width</code> according to your logo size.</p>
+        </section>
+
+
+        <!-- 8 Fonts -->
+        <section id="font">
+            <h1><span>08</span>Fonts Settings</h1>
+            <p>we use <code>Urbanist</code> font.<br>
+                You can change both fonts form <code>assets/css/style.css</code> file:
+            </p>
+            <pre class="bg-light border">
+
+    @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@196,300;12..96,400;12..96,500;12..96,600;12..96,700&display=swap');
+    </pre>
+        </section>
+
+        <!-- 6 Contact Form -->
+
+        <section id="contact">
+            <h1><span>09</span>Activeted PHP Contact Form</h1>
+            <p>You can edit your form simply and quickly. Open <code>mail.php</code> from <code>Bentofolio</code> folder
+                and add your email into <code>$recipient</code> field</p>
+            <pre class="bg-light border ps-4">
+<code>
+&lt;?php
+
+// Only process POST reqeusts.
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    // Get the form fields and remove MORALspace.
+
+    $name = strip_tags(trim($_POST["name"]));
+
+    $name = str_replace(array("\r", "\n"), array(" ", " "), $name);
+
+    $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+
+    $subject = trim($_POST["subject"]);
+
+    $message = trim($_POST["message"]);
+
+    $budget = trim($_POST["budget"]);
+
+    // Check that data was sent to the mailer.
+
+    if (empty($name) or empty($subject) or empty($message) or empty($budget) or !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+
+        // Set a 400 (bad request) response code and exit.
+        http_response_code(400);
+
+        echo "Please complete the form and try again.";
+        exit;
+    }
+
+    // Set the recipient email address.
+    // FIXME: Update this to your desired email address.
+
+    $recipient = "example.example.com";
+
+?&gt;
+</code>
+</pre>
+
+
+        </section>
+
+        <!-- 10 Credits -->
+        <section id="s4">
+            <h1><span>10</span>Credits</h1>
+            <ul>
+                <li>
+                    <a href="http://getbootstrap.com" target="_blank">
+                        <h4 class="cridits_name">Bootstrap</h4>
+                    </a>
+                </li>
+
+
+                <li>
+                    <h4 class="cridits_name">Stock Image <a href="https://unsplash.com/" target="_blank"> Unsplash</a>,
+                        <a href="https://www.pexels.com/" target="_blank">
+                            Pexels</a></h4>
+                </li>
+
+                <li>
+                    <a href="http://fontawesome.io" target="_blank">
+                        <h4 class="cridits_name">Fontawesome</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://tabler.io/icons" target="_blank">
+                        <h4 class="cridits_name">Tabler Icons</h4>
+                    </a>
+                </li>
+
+            </ul>
+        </section>
+
+
+        <!-- 11 Credits -->
+
+        <section id="thanks">
+            <h1 id="s6"><span>11</span>Thanks</h1>
+            <hr>
+            <h4 id="thanks_span_style">
+                <span>Once again thank you for purchasing one of our Templates</span></h4>
+            <h2>Best Regards</h2>
+            <h3><a href="https://themeforest.net/user/nogortheme" target="_blank">Marvel_Theme</a></h3>
+        </section>
+        <!-- Scroll top part start -->
+        <button class="scroll-to-top">
+            <span class="d-inline-block"></span>
+        </button>
+        <!-- Scroll top part end -->
+        <footer class="footer">
+            <hr>
+            <p>Copyright <a href="https://themeforest.net/user/marvel_theme" target="_blank">Marvel_Theme</a> 2023 </a>
+            </p>
+        </footer>
+    </div>
+
+    <!-- JavaScripts -->
+    <script type='text/javascript' src='assets/js/jquery-3.6.0.min.js'></script>
+    <script type='text/javascript' src='assets/js/bootstrap.bundle.min.js'></script>
+    <script type='text/javascript' src='assets/js/custom.js'></script>
+
+</body>
+
+</html>
